@@ -21,7 +21,7 @@ It is not a design document. It is not a specification. It is a record that futu
 1. Copy `templates/0000-adr-template.md` into the `decisions/` folder of your repository (or wherever your team stores ADRs)
 2. Rename it with a sequential number and a short title: `0001-use-postgresql-for-persistence.md`
 3. Fill in the context, decision, rationale, and consequences sections
-4. Set the status to `Proposed` and share it for team review
+4. Run the [ADR checklist](checklist/adr-checklist.md), set the status to `Proposed`, and share it for team review
 5. Update status to `Accepted` once the decision is made
 
 See [docs/adr-lifecycle.md](docs/adr-lifecycle.md) for the full status progression.
@@ -44,6 +44,15 @@ docs/
   when-to-write-an-adr.md     Decision criteria for what warrants an ADR
   adr-lifecycle.md             Status transitions and governance
   adr-review-process.md        How to run an ADR review as a team
+
+patterns/
+  build-vs-buy.md                       Recurring decisions and their forces
+  synchronous-vs-asynchronous.md
+  strong-vs-eventual-consistency.md
+  service-boundaries.md
+
+checklist/
+  adr-checklist.md             Quick check before proposing and accepting
 ```
 
 ---
@@ -60,6 +69,14 @@ As a starting point, consider writing an ADR for:
 - Architectural patterns with organizational implications (microservices boundaries, event-driven designs, API contracts)
 - Decisions that reject a seemingly obvious approach for non-obvious reasons
 - Changes to decisions that were previously captured in an ADR
+
+---
+
+## Decision Patterns
+
+Some decisions recur across teams: build vs buy, synchronous vs asynchronous, how strong consistency needs to be, where to draw service boundaries. The [patterns](patterns/) folder lays out the forces and options for each, so a team facing one of these has a head start on the ADR.
+
+See [patterns/README.md](patterns/README.md) for the full set.
 
 ---
 
