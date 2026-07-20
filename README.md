@@ -128,3 +128,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidance on proposing changes to the 
 ---
 
 Built to support engineering teams that treat decision discipline as an operational practice, not a documentation exercise.
+
+---
+
+Maintained by Preksha Shah, Head of Engineering. More engineering work and writing at [preksha-shah.vercel.app](https://preksha-shah.vercel.app) and on [LinkedIn](https://www.linkedin.com/in/preksha-shah-065552183/).
